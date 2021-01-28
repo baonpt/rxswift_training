@@ -14,7 +14,7 @@ struct ViewModel {
     var disposeBag = DisposeBag()
     
     struct Input {
-        var textFields: [Observable<String>]
+        var textFields: [Driver<String>]
     }
     
     struct Output {
@@ -27,7 +27,8 @@ struct ViewModel {
             textFieldObservable.map { !$0.isEmpty && $0.count <= 20 }
         }
         
-        let loginButtonEnabled = Observable.combineLatest(textFieldsIsValid) { resut in
+        
+        let loginButtonEnabled = Driver.combineLatest(textFieldsIsValid) { resut in
             return resut.reduce(true, { return $0 && $1 })
         }.asDriver(onErrorJustReturn: false)
         

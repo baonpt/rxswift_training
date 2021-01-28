@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     func config() {
-        let textFieldsObservable = textFields.compactMap { $0.rx.text.orEmpty.asObservable() }
+        let textFieldsObservable = textFields.compactMap { $0.rx.text.orEmpty.asDriver() }
         
         let input = ViewModel.Input(textFields: textFieldsObservable)
         let output = viewModel.transform(input)
