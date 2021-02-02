@@ -10,13 +10,34 @@
 		530FA7EE792C0E7F27FE3DF6 /* Pods_RxTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213289F9D3146B5BB9D1DF74 /* Pods_RxTraining.framework */; };
 		A8034ED325C16BC50069BB72 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8034ED225C16BC50069BB72 /* ViewModel.swift */; };
 		A8034F0625C171460069BB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8034F0525C171460069BB72 /* Main.storyboard */; };
+		A80CEDD125C4005A003143C1 /* CheckBoxCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDD025C4005A003143C1 /* CheckBoxCellViewModel.swift */; };
+		A80CEDD425C400BA003143C1 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDD325C400BA003143C1 /* UIColor+.swift */; };
+		A80CEDDE25C402E7003143C1 /* CheckBox+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDDD25C402E7003143C1 /* CheckBox+.swift */; };
+		A80CEDE125C40313003143C1 /* Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDE025C40313003143C1 /* Reuse.swift */; };
+		A80CEDED25C403BC003143C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDEC25C403BC003143C1 /* Constants.swift */; };
+		A80CEDF025C404B9003143C1 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEDEF25C404B9003143C1 /* UIView+.swift */; };
+		A80CEE0525C40C44003143C1 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEE0425C40C44003143C1 /* APIRequest.swift */; };
+		A80CEE0925C40C80003143C1 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEE0825C40C80003143C1 /* Style.swift */; };
+		A80CEE1425C40F87003143C1 /* Alamofire+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEE1325C40F87003143C1 /* Alamofire+.swift */; };
+		A80CEE1F25C41731003143C1 /* TableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CEE1E25C41731003143C1 /* TableView+.swift */; };
+		A821396925C5A8AF00BBD0DB /* ImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821396825C5A8AF00BBD0DB /* ImageView+.swift */; };
 		A886E87025B9A2F100A25460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886E86F25B9A2F100A25460 /* AppDelegate.swift */; };
 		A886E87225B9A2F100A25460 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886E87125B9A2F100A25460 /* SceneDelegate.swift */; };
 		A886E87425B9A2F100A25460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886E87325B9A2F100A25460 /* ViewController.swift */; };
 		A886E87925B9A2F200A25460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A886E87825B9A2F200A25460 /* Assets.xcassets */; };
 		A886E87C25B9A2F200A25460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A886E87A25B9A2F200A25460 /* LaunchScreen.storyboard */; };
+		A89AB1F125C96924003767C4 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AB1EF25C96924003767C4 /* TextFieldCell.swift */; };
+		A89AB1F225C96924003767C4 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89AB1F025C96924003767C4 /* TextFieldCell.xib */; };
+		A89AB1F525C96A60003767C4 /* TextViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AB1F425C96A60003767C4 /* TextViewCellModel.swift */; };
+		A89AB1F925C97553003767C4 /* TextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AB1F825C97553003767C4 /* TextField+.swift */; };
 		A8ABCD1325C1941700101904 /* Observable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ABCD1225C1941700101904 /* Observable+.swift */; };
 		A8ABCD1725C198A400101904 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ABCD1625C198A400101904 /* UIButton+.swift */; };
+		A8AF302A25C8515D00FF8B49 /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF302825C8515D00FF8B49 /* CheckBoxCell.swift */; };
+		A8AF302B25C8515D00FF8B49 /* CheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AF302925C8515D00FF8B49 /* CheckBoxCell.xib */; };
+		A8AF303425C853E600FF8B49 /* SectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF303225C853E600FF8B49 /* SectionHeaderCell.swift */; };
+		A8AF303525C853E600FF8B49 /* SectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AF303325C853E600FF8B49 /* SectionHeaderCell.xib */; };
+		A8AF303825C853F700FF8B49 /* SectionHeaderCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF303725C853F700FF8B49 /* SectionHeaderCellViewModel.swift */; };
+		A8AF304C25C864DA00FF8B49 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF304B25C864DA00FF8B49 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +46,17 @@
 		4D5A8FC14A6958C7B5DA6799 /* Pods-RxTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTraining.release.xcconfig"; path = "Target Support Files/Pods-RxTraining/Pods-RxTraining.release.xcconfig"; sourceTree = "<group>"; };
 		A8034ED225C16BC50069BB72 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A8034F0525C171460069BB72 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A80CEDD025C4005A003143C1 /* CheckBoxCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCellViewModel.swift; sourceTree = "<group>"; };
+		A80CEDD325C400BA003143C1 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		A80CEDDD25C402E7003143C1 /* CheckBox+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckBox+.swift"; sourceTree = "<group>"; };
+		A80CEDE025C40313003143C1 /* Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reuse.swift; sourceTree = "<group>"; };
+		A80CEDEC25C403BC003143C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A80CEDEF25C404B9003143C1 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		A80CEE0425C40C44003143C1 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		A80CEE0825C40C80003143C1 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		A80CEE1325C40F87003143C1 /* Alamofire+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+.swift"; sourceTree = "<group>"; };
+		A80CEE1E25C41731003143C1 /* TableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+.swift"; sourceTree = "<group>"; };
+		A821396825C5A8AF00BBD0DB /* ImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+.swift"; sourceTree = "<group>"; };
 		A8710A7E25BD4C0700250DDB /* RxPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A886E86C25B9A2F100A25460 /* RxTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A886E86F25B9A2F100A25460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,8 +65,18 @@
 		A886E87825B9A2F200A25460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A886E87B25B9A2F200A25460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A886E87D25B9A2F200A25460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89AB1EF25C96924003767C4 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		A89AB1F025C96924003767C4 /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		A89AB1F425C96A60003767C4 /* TextViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCellModel.swift; sourceTree = "<group>"; };
+		A89AB1F825C97553003767C4 /* TextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+.swift"; sourceTree = "<group>"; };
 		A8ABCD1225C1941700101904 /* Observable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+.swift"; sourceTree = "<group>"; };
 		A8ABCD1625C198A400101904 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		A8AF302825C8515D00FF8B49 /* CheckBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCell.swift; sourceTree = "<group>"; };
+		A8AF302925C8515D00FF8B49 /* CheckBoxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxCell.xib; sourceTree = "<group>"; };
+		A8AF303225C853E600FF8B49 /* SectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCell.swift; sourceTree = "<group>"; };
+		A8AF303325C853E600FF8B49 /* SectionHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderCell.xib; sourceTree = "<group>"; };
+		A8AF303725C853F700FF8B49 /* SectionHeaderCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCellViewModel.swift; sourceTree = "<group>"; };
+		A8AF304B25C864DA00FF8B49 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +108,77 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A80CEDC725C3FF50003143C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A80CEDFB25C40A3C003143C1 /* SectionHeaderCell */,
+				A80CEDC925C3FF77003143C1 /* TextFieldCell */,
+				A80CEDC825C3FF70003143C1 /* CheckBoxCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A80CEDC825C3FF70003143C1 /* CheckBoxCell */ = {
+			isa = PBXGroup;
+			children = (
+				A80CEDD025C4005A003143C1 /* CheckBoxCellViewModel.swift */,
+				A8AF302825C8515D00FF8B49 /* CheckBoxCell.swift */,
+				A8AF302925C8515D00FF8B49 /* CheckBoxCell.xib */,
+			);
+			path = CheckBoxCell;
+			sourceTree = "<group>";
+		};
+		A80CEDC925C3FF77003143C1 /* TextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				A89AB1EF25C96924003767C4 /* TextFieldCell.swift */,
+				A89AB1F025C96924003767C4 /* TextFieldCell.xib */,
+				A89AB1F425C96A60003767C4 /* TextViewCellModel.swift */,
+			);
+			path = TextFieldCell;
+			sourceTree = "<group>";
+		};
+		A80CEDEB25C403B1003143C1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A80CEDEC25C403BC003143C1 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A80CEDFB25C40A3C003143C1 /* SectionHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF303225C853E600FF8B49 /* SectionHeaderCell.swift */,
+				A8AF303325C853E600FF8B49 /* SectionHeaderCell.xib */,
+				A8AF303725C853F700FF8B49 /* SectionHeaderCellViewModel.swift */,
+			);
+			path = SectionHeaderCell;
+			sourceTree = "<group>";
+		};
+		A80CEE0325C40C1B003143C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A80CEE0425C40C44003143C1 /* APIRequest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A80CEE0725C40C73003143C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A80CEE0825C40C80003143C1 /* Style.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A821396325C5A46400BBD0DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		A886E86325B9A2F100A25460 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +201,10 @@
 		A886E86E25B9A2F100A25460 /* RxTraining */ = {
 			isa = PBXGroup;
 			children = (
+				A821396325C5A46400BBD0DB /* Common */,
+				A80CEE0725C40C73003143C1 /* Models */,
+				A80CEE0325C40C1B003143C1 /* Services */,
+				A80CEDEB25C403B1003143C1 /* Constants */,
 				A8ABCD2125C19AE000101904 /* AppDelegate */,
 				A8ABCD2325C19AEA00101904 /* Scenes */,
 				A8ABCD2625C19AF700101904 /* Support Files */,
@@ -102,6 +219,15 @@
 			children = (
 				A8ABCD1225C1941700101904 /* Observable+.swift */,
 				A8ABCD1625C198A400101904 /* UIButton+.swift */,
+				A80CEDD325C400BA003143C1 /* UIColor+.swift */,
+				A80CEDDD25C402E7003143C1 /* CheckBox+.swift */,
+				A80CEDE025C40313003143C1 /* Reuse.swift */,
+				A80CEDEF25C404B9003143C1 /* UIView+.swift */,
+				A80CEE1325C40F87003143C1 /* Alamofire+.swift */,
+				A80CEE1E25C41731003143C1 /* TableView+.swift */,
+				A821396825C5A8AF00BBD0DB /* ImageView+.swift */,
+				A8AF304B25C864DA00FF8B49 /* String+.swift */,
+				A89AB1F825C97553003767C4 /* TextField+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -127,6 +253,7 @@
 		A8ABCD2325C19AEA00101904 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A80CEDC725C3FF50003143C1 /* Cells */,
 				A886E87325B9A2F100A25460 /* ViewController.swift */,
 				A8034ED225C16BC50069BB72 /* ViewModel.swift */,
 			);
@@ -203,7 +330,10 @@
 			files = (
 				A8034F0625C171460069BB72 /* Main.storyboard in Resources */,
 				A886E87C25B9A2F200A25460 /* LaunchScreen.storyboard in Resources */,
+				A8AF303525C853E600FF8B49 /* SectionHeaderCell.xib in Resources */,
+				A8AF302B25C8515D00FF8B49 /* CheckBoxCell.xib in Resources */,
 				A886E87925B9A2F200A25460 /* Assets.xcassets in Resources */,
+				A89AB1F225C96924003767C4 /* TextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +386,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80CEDD125C4005A003143C1 /* CheckBoxCellViewModel.swift in Sources */,
 				A886E87425B9A2F100A25460 /* ViewController.swift in Sources */,
+				A80CEDE125C40313003143C1 /* Reuse.swift in Sources */,
 				A8ABCD1725C198A400101904 /* UIButton+.swift in Sources */,
 				A886E87025B9A2F100A25460 /* AppDelegate.swift in Sources */,
+				A80CEE1F25C41731003143C1 /* TableView+.swift in Sources */,
+				A89AB1F525C96A60003767C4 /* TextViewCellModel.swift in Sources */,
+				A89AB1F925C97553003767C4 /* TextField+.swift in Sources */,
 				A8034ED325C16BC50069BB72 /* ViewModel.swift in Sources */,
+				A8AF303825C853F700FF8B49 /* SectionHeaderCellViewModel.swift in Sources */,
+				A821396925C5A8AF00BBD0DB /* ImageView+.swift in Sources */,
+				A80CEE1425C40F87003143C1 /* Alamofire+.swift in Sources */,
+				A80CEE0925C40C80003143C1 /* Style.swift in Sources */,
+				A80CEDDE25C402E7003143C1 /* CheckBox+.swift in Sources */,
 				A8ABCD1325C1941700101904 /* Observable+.swift in Sources */,
+				A89AB1F125C96924003767C4 /* TextFieldCell.swift in Sources */,
 				A886E87225B9A2F100A25460 /* SceneDelegate.swift in Sources */,
+				A8AF303425C853E600FF8B49 /* SectionHeaderCell.swift in Sources */,
+				A8AF302A25C8515D00FF8B49 /* CheckBoxCell.swift in Sources */,
+				A80CEDF025C404B9003143C1 /* UIView+.swift in Sources */,
+				A80CEDD425C400BA003143C1 /* UIColor+.swift in Sources */,
+				A80CEE0525C40C44003143C1 /* APIRequest.swift in Sources */,
+				A8AF304C25C864DA00FF8B49 /* String+.swift in Sources */,
+				A80CEDED25C403BC003143C1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +556,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tekup.RxTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekup.faifo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,7 +576,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tekup.RxTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekup.faifo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

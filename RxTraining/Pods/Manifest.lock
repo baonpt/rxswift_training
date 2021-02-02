@@ -1,30 +1,62 @@
 PODS:
-  - Alamofire (5.4.1)
+  - Alamofire (4.9.1)
+  - BEMCheckBox (1.4.1)
+  - Differentiator (5.0.0)
+  - IQKeyboardManagerSwift (6.3.0)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - ObjectMapper (4.2.0)
   - RxCocoa (6.0.0):
     - RxRelay (= 6.0.0)
     - RxSwift (= 6.0.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.0.0):
     - RxSwift (= 6.0.0)
   - RxSwift (6.0.0)
+  - Then (2.7.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.6)
+  - BEMCheckBox
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - Kingfisher (~> 5.15)
+  - ObjectMapper
   - RxCocoa (= 6.0.0)
+  - RxDataSources
   - RxSwift (= 6.0.0)
+  - Then
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - BEMCheckBox
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - ObjectMapper
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
+    - Then
 
 SPEC CHECKSUMS:
-  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 8d593be109c06ea850df027351beba614b012ffb
   RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: bbd8a90a5b521db6ca7c42a17dbe03755fc71172
+PODFILE CHECKSUM: db50b7013b055c24388361e0b0bfca97c94030d0
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
